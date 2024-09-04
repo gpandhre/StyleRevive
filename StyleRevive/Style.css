@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "Sedan SC , Italiana";
+}
+.body{
+    height: 100%;
+    width: 100%;
+}
+.home-page{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #FEFFF3;
+}
+.nav{
+    width: 100%;
+    height: 10vw;
+    position: relative;
+}
+.nav .logo{
+    height: 50%;
+    width: 100%;
+    background-color: #3F283B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        color: #FEFFF3;
+        font-family: "Italiana";
+    }
+    svg{
+        width: 12vw;
+        height: 12vw;
+
+    }
+}
+.navigation{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;
+
+}
+.navigation .links{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2vw;
+        font-family: "Sedan SC";
+    }
+}
+.navigation .buttons{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .button{
+        width: 6vw;
+        height: 2.5vw;
+        font-size: 1.2vw;
+        font-family: "Sedan SC";
+        border-radius: 0.5vw;
+        background-color: #EA585E;
+        color: #FEFFF3;
+    }
+    
+}
+.home-page .hero-section{
+    width: 100%;
+    height: calc(100vh - 200px);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0)),url("/images/Hero1.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    padding-left: 2vw;
+
+    
+    .text{
+        width: 100%;
+        height: 100%;
+        padding: 6vw 0;
+
+    }
+    .text h1{
+        font-size: 4vw;
+        font-family: "Italiana";
+        text-align: right;
+        color: #FEFFF3;
+        width: 52%;
+        margin-left: 47vw;
+        margin-bottom: 2vw;
+
+
+
+    }
+    .text p{
+        font-size: 1.8vw;
+        font-family: "Sedan SC";
+        color: #bcbcb8;
+        width: 70%;
+        text-align: right;
+        margin-left: 32vw;
+        line-height: 1.5vw;
+    }
+    
+}
+.learnMore{
+    width: 8vw;
+    height: 2.5vw;
+    background-color: #000;
+    border: 1px solid #fefff3be;
+    margin-top: 27vw;
+    margin-right: 7vw;
+}
+.learnMore a{
+    text-decoration: none;
+    color: #FEFFF3;
+    font-size: 1vw;
+
+}
